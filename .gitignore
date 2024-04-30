@@ -54,3 +54,14 @@ autoconf/autom4te.cache
 .vs
 # clangd index
 .clangd
+
+reb.sh
+rename.sh
+copy.sh
+jme3.sh
+/.git
+proji*
+pi 
+w
+reword.sh
+

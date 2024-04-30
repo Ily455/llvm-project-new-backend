@@ -29,7 +29,7 @@
 #include "Targets/PNaCl.h"
 #include "Targets/PPC.h"
 #include "Targets/RISCV.h"
-#include "Targets/RISCW.h"
+#include "Targets/RISCPI.h"
 #include "Targets/SPIR.h"
 #include "Targets/Sparc.h"
 #include "Targets/SystemZ.h"
@@ -392,8 +392,8 @@ TargetInfo *AllocateTarget(const llvm::Triple &Triple,
       return new RISCV64TargetInfo(Triple, Opts);
     }
 
-  case llvm::Triple::riscw:
-    return new RISCWTargetInfo(Triple, Opts);
+  case llvm::Triple::riscpi:
+    return new RISCPITargetInfo(Triple, Opts);
 
   case llvm::Triple::sparc:
     switch (os) {

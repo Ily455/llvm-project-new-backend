@@ -79,7 +79,7 @@ add_clang_library(clangBasic
   Targets/PNaCl.cpp
   Targets/PPC.cpp
   Targets/RISCV.cpp
-  Targets/RISCW.cpp
+  Targets/RISCPI.cpp
   Targets/SPIR.cpp
   Targets/Sparc.cpp
   Targets/SystemZ.cpp
@@ -94,4 +94,3 @@ add_clang_library(clangBasic
   XRayLists.cpp
   ${version_inc}
   )
-
