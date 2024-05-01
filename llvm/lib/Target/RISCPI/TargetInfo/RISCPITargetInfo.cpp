@@ -19,5 +19,5 @@ Target &llvm::getTheRISCPITarget() {
 
 extern "C" LLVM_EXTERNAL_VISIBILITY void LLVMInitializeRISCPITargetInfo() {
   RegisterTarget<Triple::riscpi> X(getTheRISCPITarget(), "riscpi",
-                                  "32-bit RISC-V", "RISCPI");
+                                  "RISCANDO PAYPANDO", "RISCPI");
 }
