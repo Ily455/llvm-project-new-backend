@@ -80,7 +80,7 @@ def simm12 : Operand<i32>, ImmLeaf<i32, [{return isInt<12>(Imm);}]> {
     if (MCOp.evaluateAsConstantImm(Imm))
       return isInt<12>(Imm);
     return MCOp.isBareSymbolRef();
-  }];
+W  }];
   let OperandType = "OPERAND_SIMM12";
   let OperandNamespace = "RISCPIOp";
 }
